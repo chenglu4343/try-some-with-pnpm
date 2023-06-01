@@ -7,10 +7,16 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@packages/utils':
+        specifier: workspace:^
+        version: link:packages/utils
     devDependencies:
       esno:
         specifier: ^0.16.3
         version: 0.16.3
+
+  packages/utils: {}
 
 packages:
 
