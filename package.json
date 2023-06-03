@@ -17,7 +17,9 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.39.4",
+    "@types/lodash-es": "^4.17.7",
     "eslint": "^8.42.0",
-    "esno": "^0.16.3"
+    "esno": "^0.16.3",
+    "lodash-es": "^4.17.21"
   }
 }

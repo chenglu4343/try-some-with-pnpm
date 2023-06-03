@@ -1,27 +1,27 @@
 {
-  "name": "@chenglu4343/unbuildPkg",
-  "type": "module",
-  "version": "1.0.0",
-  "description": "",
   "author": "",
-  "license": "ISC",
-  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "unbuild": "^1.2.1"
+  },
   "exports": {
     ".": {
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.mjs"
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
     }
   },
-  "main": "./dist/index.cjs",
-  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
+  "keywords": [],
+  "license": "ISC",
+  "main": "./dist/index.cjs",
+  "name": "@chenglu4343/unbuildPkg",
   "scripts": {
     "build": "unbuild",
     "stub": "unbuild --stub"
   },
-  "devDependencies": {
-    "unbuild": "^1.2.1"
-  }
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "version": "1.0.0"
 }

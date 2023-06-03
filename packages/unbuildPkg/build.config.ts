@@ -26,6 +26,10 @@ export default defineBuildConfig({
   rollup: {
     emitCJS: true,
 
+    // Allows packaging of external dependencies
     inlineDependencies: true,
   },
+
+  // as same as setting peerDependencies
+  externals: ['lodash-es'],
 })
