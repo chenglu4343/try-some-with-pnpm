@@ -1,0 +1,27 @@
+{
+  "author": "",
+  "description": "",
+  "devDependencies": {
+    "unbuild": "^1.2.1"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "license": "ISC",
+  "main": "./dist/index.cjs",
+  "name": "@chenglu4343/unbuildPkg",
+  "scripts": {
+    "build": "unbuild",
+    "stub": "unbuild --stub"
+  },
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "version": "1.0.0"
+}
