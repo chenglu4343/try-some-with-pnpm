@@ -16,7 +16,7 @@
   "keywords": [],
   "license": "ISC",
   "main": "./dist/index.cjs",
-  "name": "@chenglu4343/unbuildPkg",
+  "name": "@chenglu4343/publicUtils",
   "scripts": {
     "build": "unbuild",
     "stub": "unbuild --stub"
