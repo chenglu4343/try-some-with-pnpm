@@ -1,5 +1,6 @@
-import { add } from "@packages/utils";
+/* eslint-disable no-console */
+import { add } from '@packages/utils'
 
-console.log('Hello World!');
+console.log('Hello World!')
 
-console.log(add(1, 2));
+console.log(add(1, 2))
