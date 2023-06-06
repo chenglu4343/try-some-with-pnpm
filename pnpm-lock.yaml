@@ -1,4 +1,8 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 importers:
 
@@ -27,7 +31,7 @@ importers:
         specifier: ^4.17.21
         version: 4.17.21
 
-  packages/unbuildPkg:
+  packages/publicUtils:
     devDependencies:
       unbuild:
         specifier: ^1.2.1
