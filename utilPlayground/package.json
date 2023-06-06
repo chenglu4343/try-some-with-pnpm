@@ -1,0 +1,15 @@
+{
+  "author": "",
+  "dependencies": {
+    "@chenglu4343/public-utils": "workspace:^"
+  },
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "playground",
+  "scripts": {
+    "sayHello": "npx hello"
+  },
+  "version": "1.0.0"
+}

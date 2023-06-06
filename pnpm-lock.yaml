@@ -46,6 +46,12 @@ importers:
 
   packages/utils: {}
 
+  utilPlayground:
+    dependencies:
+      '@chenglu4343/public-utils':
+        specifier: workspace:^
+        version: link:../packages/publicUtils
+
 packages:
 
   /@ampproject/remapping@2.2.1:
