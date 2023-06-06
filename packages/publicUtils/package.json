@@ -25,7 +25,7 @@
   "license": "MIT",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
-  "name": "@chenglu4343/publicUtils",
+  "name": " @chenglu4343/public-utils",
   "private": false,
   "publishConfig": {
     "access": "public",
