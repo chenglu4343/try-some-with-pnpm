@@ -1,27 +1,46 @@
 {
-  "author": "",
-  "description": "",
+  "author": "chenglu4343",
+  "bugs": {
+    "url": "https://github.com/chenglu4343/try-some-with-pnpm/issues"
+  },
+  "description": "simple utils",
   "devDependencies": {
     "unbuild": "^1.2.1"
   },
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs"
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
-  "keywords": [],
-  "license": "ISC",
+  "homepage": "https://github.com/chenglu4343/try-some-with-pnpm",
+  "keywords": [
+    "utils"
+  ],
+  "license": "MIT",
   "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
   "name": "@chenglu4343/publicUtils",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenglu4343/try-some-with-pnpm.git"
+  },
   "scripts": {
     "build:unbuild": "unbuild",
     "stub": "unbuild --stub"
   },
+  "sideEffects": false,
   "type": "module",
   "types": "./dist/index.d.ts",
-  "version": "1.0.0"
+  "version": "0.0.1"
 }
