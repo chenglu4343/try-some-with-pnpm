@@ -27,8 +27,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm i -g @antfu/ni pnpm
       - run: ni
-      - run: cd ./packages/publicUtils
-      - run: nr build:unbuild
-      - run: npm publish
+      - run: cd ./packages/publicUtils && nr build:unbuild
+      - run: cd ./packages/publicUtils && npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
