@@ -5,6 +5,8 @@ export default defineBuildConfig({
   entries: [
     './index',
 
+    './bin',
+
     // default
     // './src/index',
     // mkdist builder transpiles file-to-file keeping original sources structure

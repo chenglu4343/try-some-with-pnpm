@@ -1,5 +1,8 @@
 {
   "author": "chenglu4343",
+  "bin": {
+    "hello": "bin/sayHello.mjs"
+  },
   "bugs": {
     "url": "https://github.com/chenglu4343/try-some-with-pnpm/issues"
   },
@@ -17,6 +20,7 @@
   },
   "files": [
     "dist",
+    "bin",
     "README.md"
   ],
   "homepage": "https://github.com/chenglu4343/try-some-with-pnpm",
@@ -40,7 +44,7 @@
     "url": "git+https://github.com/chenglu4343/try-some-with-pnpm.git"
   },
   "scripts": {
-    "build:unbuild": "unbuild",
+    "build:unbuild": "rm -rf dist && unbuild",
     "bump:major": "npx bumpp major --no-push --yes",
     "bump:minor": "npx bumpp minor --no-push --yes",
     "bump:patch": "npx bumpp patch --no-push --yes",
