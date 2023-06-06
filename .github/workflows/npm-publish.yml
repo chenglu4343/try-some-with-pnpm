@@ -25,7 +25,7 @@ jobs:
         with:
           node-version: 18.16.0
           registry-url: https://registry.npmjs.org/
-      - run: npm i -g @antfu/ni
+      - run: npm i -g @antfu/ni pnpm
       - run: ni
       - run: cd ./packages/publicUtils
       - run: nr build:unbuild
