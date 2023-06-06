@@ -31,5 +31,5 @@ export default defineBuildConfig({
   },
 
   // as same as setting peerDependencies
-  externals: ['lodash-es'],
+  // externals: ['lodash-es'],
 })

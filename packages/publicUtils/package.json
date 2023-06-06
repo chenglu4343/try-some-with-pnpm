@@ -25,7 +25,10 @@
   "license": "MIT",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
-  "name": " @chenglu4343/public-utils",
+  "name": "@chenglu4343/public-utils",
+  "peerDependencies": {
+    "lodash-es": ">=4"
+  },
   "private": false,
   "publishConfig": {
     "access": "public",
