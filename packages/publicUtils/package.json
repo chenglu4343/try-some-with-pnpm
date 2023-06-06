@@ -5,6 +5,7 @@
   },
   "description": "simple utils",
   "devDependencies": {
+    "bumpp": "^9.1.1",
     "unbuild": "^1.2.1"
   },
   "exports": {
@@ -40,6 +41,9 @@
   },
   "scripts": {
     "build:unbuild": "unbuild",
+    "bump:major": "npx bumpp major --no-push --yes",
+    "bump:minor": "npx bumpp minor --no-push --yes",
+    "bump:patch": "npx bumpp patch --no-push --yes",
     "stub": "unbuild --stub"
   },
   "sideEffects": false,
