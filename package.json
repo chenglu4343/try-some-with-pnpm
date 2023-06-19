@@ -1,32 +1,42 @@
 {
-  "name": "try-pnpm-monorepo",
-  "version": "1.0.0",
-  "description": "",
   "author": "",
-  "license": "ISC",
-  "keywords": [],
-  "main": "index.js",
-  "scripts": {
-    "start": "esno ./index.ts",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
-  },
   "dependencies": {
     "@packages/utils": "workspace:^",
     "typescript": "^5.0.4"
   },
+  "description": "",
   "devDependencies": {
     "@antfu/eslint-config": "^0.39.4",
     "@types/lodash-es": "^4.17.7",
     "@types/node": "^20.3.1",
     "eslint": "^8.42.0",
     "esno": "^0.16.3",
-    "lodash-es": "^4.17.21"
+    "lint-staged": "^13.2.2",
+    "lodash-es": "^4.17.21",
+    "simple-git-hooks": "^2.8.1"
   },
-  "type": "module",
+  "keywords": [],
+  "license": "ISC",
+  "lint-staged": {
+    "*.{js,ts,tsx,vue,md}": [
+      "eslint --cache --fix"
+    ]
+  },
+  "main": "index.js",
+  "name": "try-pnpm-monorepo",
   "pnpm": {
     "patchedDependencies": {
       "lodash-es@4.17.21": "patches/lodash-es@4.17.21.patch"
     }
-  }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "start": "esno ./index.ts"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "type": "module",
+  "version": "1.0.0"
 }

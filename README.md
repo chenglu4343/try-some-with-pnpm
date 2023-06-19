@@ -1,6 +1,7 @@
 # /
 - try using esno
 - try configuring eslint
+- try using simple-git-hooks to detect code at commit time
 
 # packages
 
