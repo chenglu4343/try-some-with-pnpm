@@ -54,7 +54,7 @@ importers:
 
   packages/utils: {}
 
-  utilPlayground:
+  simple-playground:
     dependencies:
       '@chenglu4343/public-utils':
         specifier: workspace:^

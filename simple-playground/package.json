@@ -4,17 +4,17 @@
     "@chenglu4343/public-utils": "workspace:^"
   },
   "description": "",
+  "devDependencies": {
+    "esm": "^3.2.25"
+  },
   "keywords": [],
   "license": "ISC",
   "main": "index.js",
-  "name": "utilPlayground",
+  "name": "simple-playground",
   "scripts": {
     "sayHello": "npx hello",
     "start:cjs": "node ./cjs_runner.cjs",
     "start:mjs": "node ./mjs_runner.mjs"
   },
-  "version": "1.0.0",
-  "devDependencies": {
-    "esm": "^3.2.25"
-  }
+  "version": "1.0.0"
 }
