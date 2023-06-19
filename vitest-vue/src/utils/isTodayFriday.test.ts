@@ -1,5 +1,5 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
-import isTodayFriday from './isTodayFriday'
+import { isTodayFriday } from './isTodayFriday'
 
 beforeEach(() => {
   vi.useFakeTimers()
