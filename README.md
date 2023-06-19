@@ -27,4 +27,4 @@
 - try to run publicUtils cli
 
 # vitest-vue
-- try vitest with vue
+- vitest setup vue-router-mock
