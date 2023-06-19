@@ -25,3 +25,6 @@
 - try to import the cjs module in mjs
 - try to import the mjs module in cjs
 - try to run publicUtils cli
+
+# vitest-vue
+- try vitest with vue

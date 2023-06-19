@@ -1,3 +1,4 @@
 packages:
   - 'packages/*'
   - 'simple-playground'
+  - 'vitest-vue'
