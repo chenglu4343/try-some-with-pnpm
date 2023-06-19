@@ -1,12 +1,9 @@
 import { describe, expect, it } from 'vitest'
 import { defineComponent } from 'vue'
 import { mount } from '@vue/test-utils'
-import { setupVueRouterMock } from '../testHelper/setupVueRouterMock'
 import { useGoto } from './useGoto'
 
 describe('test useGoto', () => {
-  setupVueRouterMock()
-
   it('should gotoHome', () => {
     const Comp = defineComponent(() => {
       const { gotoHome } = useGoto()
