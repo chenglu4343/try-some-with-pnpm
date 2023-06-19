@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  lodash-es@4.17.21:
+    hash: esuw5xiqt6fyx4mcm6tr5x75o4
+    path: patches/lodash-es@4.17.21.patch
+
 importers:
 
   .:
@@ -29,13 +34,13 @@ importers:
         version: 0.16.3
       lodash-es:
         specifier: ^4.17.21
-        version: 4.17.21
+        version: 4.17.21(patch_hash=esuw5xiqt6fyx4mcm6tr5x75o4)
 
   packages/publicUtils:
     dependencies:
       lodash-es:
         specifier: '>=4'
-        version: 4.17.21
+        version: 4.17.21(patch_hash=esuw5xiqt6fyx4mcm6tr5x75o4)
     devDependencies:
       bumpp:
         specifier: ^9.1.1
@@ -2588,8 +2593,9 @@ packages:
       p-locate: 5.0.0
     dev: true
 
-  /lodash-es@4.17.21:
+  /lodash-es@4.17.21(patch_hash=esuw5xiqt6fyx4mcm6tr5x75o4):
     resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
+    patched: true
 
   /lodash.merge@4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}

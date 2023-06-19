@@ -1,0 +1,12 @@
+diff --git a/join.js b/join.js
+index 61dd65b2a04b812b57b61938d7325e369e8041cf..f75cf179a595d6ff0b60f99e53a4fb08a31a69fc 100644
+--- a/join.js
++++ b/join.js
+@@ -20,6 +20,7 @@ var nativeJoin = arrayProto.join;
+  * // => 'a~b~c'
+  */
+ function join(array, separator) {
++  console.log('join func run')
+   return array == null ? '' : nativeJoin.call(array, separator);
+ }
+ 
