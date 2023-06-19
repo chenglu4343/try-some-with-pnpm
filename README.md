@@ -26,15 +26,16 @@
 - try to import the mjs module in cjs
 - try to run publicUtils cli
 
-# vitest-vue
-- vitest setup vue-router-mock
-  - vitest-vue/vitestSetup/setupVueRouterMock.ts
-- try vitest test isTodayFriday
-  - vitest-vue/src/utils/isTodayFriday.test.ts
-- try vitest test sleepTime
-  - vitest-vue/src/utils/sleepTime.test.ts
-
 # vite-vue-playground
 - config alias
 - config some plugins
   - @vitejs/plugin-vue-jsx
+
+## using vitest
+- vitest setup vue-router-mock
+  - vite-vue-playground/vitestSetup/setupVueRouterMock.ts
+- try vitest test isTodayFriday
+  - vite-vue-playground/src/utils/isTodayFriday.test.ts
+- try vitest test sleepTime
+  - vite-vue-playground/src/utils/sleepTime.test.ts
+
