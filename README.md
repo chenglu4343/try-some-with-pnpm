@@ -28,3 +28,6 @@
 
 # vitest-vue
 - vitest setup vue-router-mock
+  - vitest-vue/vitestSetup/setupVueRouterMock.ts
+- try vitest test isTodayFriday
+  - vitest-vue/src/utils/isTodayFriday.test.ts
