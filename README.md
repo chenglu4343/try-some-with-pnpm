@@ -31,3 +31,5 @@
   - vitest-vue/vitestSetup/setupVueRouterMock.ts
 - try vitest test isTodayFriday
   - vitest-vue/src/utils/isTodayFriday.test.ts
+- try vitest test sleepTime
+  - vitest-vue/src/utils/sleepTime.test.ts
