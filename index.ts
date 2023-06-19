@@ -1,6 +1,9 @@
 /* eslint-disable no-console */
-import { add } from '@packages/utils'
+import { createRequire } from 'node:module'
 import { join } from 'lodash-es'
+
+const fakeRequire = createRequire(import.meta.url)
+const { add } = fakeRequire('@packages/utils')
 
 console.log('Hello World!')
 

@@ -26,6 +26,9 @@ importers:
       '@types/lodash-es':
         specifier: ^4.17.7
         version: 4.17.7
+      '@types/node':
+        specifier: ^20.3.1
+        version: 20.3.1
       eslint:
         specifier: ^8.42.0
         version: 8.42.0
@@ -821,6 +824,10 @@ packages:
     resolution: {integrity: sha512-Y/uImid8aAwrEA24/1tcRZwpxX3pIFTSilcNDKSPn+Y2iDywSEachzRuvgAYYLR3wpGXAsMbv5lvKLDZLeYPAw==}
     dependencies:
       '@types/unist': 2.0.6
+    dev: true
+
+  /@types/node@20.3.1:
+    resolution: {integrity: sha512-EhcH/wvidPy1WeML3TtYFGR83UzjxeWRen9V402T8aUGYsCHOmfoisV3ZSg03gAFIbLq8TnWOJ0f4cALtnSEUg==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
