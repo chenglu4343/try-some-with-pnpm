@@ -36,3 +36,5 @@
 
 # vite-vue-playground
 - config alias
+- config some plugins
+  - @vitejs/plugin-vue-jsx
