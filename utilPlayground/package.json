@@ -9,7 +9,8 @@
   "main": "index.js",
   "name": "playground",
   "scripts": {
-    "sayHello": "npx hello"
+    "sayHello": "npx hello",
+    "start:mjs": "node ./mjs_runner.mjs"
   },
   "version": "1.0.0"
 }
