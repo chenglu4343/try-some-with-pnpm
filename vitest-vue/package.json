@@ -1,13 +1,4 @@
 {
-  "name": "vitest-vue",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc && vite build",
-    "preview": "vite preview"
-  },
   "dependencies": {
     "vue": "^3.2.47"
   },
@@ -15,6 +6,18 @@
     "@vitejs/plugin-vue": "^4.1.0",
     "typescript": "^5.0.2",
     "vite": "^4.3.9",
+    "vitest": "^0.32.2",
     "vue-tsc": "^1.4.2"
-  }
+  },
+  "name": "vitest-vue",
+  "private": true,
+  "scripts": {
+    "build": "vue-tsc && vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "type": "module",
+  "version": "0.0.0"
 }
