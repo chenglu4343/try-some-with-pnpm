@@ -70,6 +70,25 @@ importers:
         specifier: ^3.2.25
         version: 3.2.25
 
+  vite-vue-playground:
+    dependencies:
+      vue:
+        specifier: ^3.2.47
+        version: 3.2.47
+    devDependencies:
+      '@vitejs/plugin-vue':
+        specifier: ^4.1.0
+        version: 4.1.0(vite@4.3.9)(vue@3.2.47)
+      typescript:
+        specifier: ^5.0.2
+        version: 5.0.4
+      vite:
+        specifier: ^4.3.9
+        version: 4.3.9(@types/node@20.3.1)
+      vue-tsc:
+        specifier: ^1.4.2
+        version: 1.4.2(typescript@5.0.4)
+
   vitest-vue:
     dependencies:
       vue:

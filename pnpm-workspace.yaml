@@ -2,3 +2,4 @@ packages:
   - 'packages/*'
   - 'simple-playground'
   - 'vitest-vue'
+  - 'vite-vue-playground'
