@@ -7,10 +7,14 @@
   "keywords": [],
   "license": "ISC",
   "main": "index.js",
-  "name": "playground",
+  "name": "utilPlayground",
   "scripts": {
     "sayHello": "npx hello",
+    "start:cjs": "node ./cjs_runner.cjs",
     "start:mjs": "node ./mjs_runner.mjs"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "devDependencies": {
+    "esm": "^3.2.25"
+  }
 }

@@ -59,6 +59,10 @@ importers:
       '@chenglu4343/public-utils':
         specifier: workspace:^
         version: link:../packages/publicUtils
+    devDependencies:
+      esm:
+        specifier: ^3.2.25
+        version: 3.2.25
 
 packages:
 
@@ -1882,6 +1886,11 @@ packages:
       text-table: 0.2.0
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /esm@3.2.25:
+    resolution: {integrity: sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA==}
+    engines: {node: '>=6'}
     dev: true
 
   /esno@0.16.3:
