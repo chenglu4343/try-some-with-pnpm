@@ -33,3 +33,6 @@
   - vitest-vue/src/utils/isTodayFriday.test.ts
 - try vitest test sleepTime
   - vitest-vue/src/utils/sleepTime.test.ts
+
+# vite-vue-playground
+- config alias
