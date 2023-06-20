@@ -27,9 +27,11 @@
 - try to run publicUtils cli
 
 # vite-vue-playground
+- config vitest
 - config alias
 - config some plugins
   - @vitejs/plugin-vue-jsx
+  - unocss
 
 ## using vitest
 - vitest setup vue-router-mock
