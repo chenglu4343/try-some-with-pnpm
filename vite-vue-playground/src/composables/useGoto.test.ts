@@ -1,4 +1,3 @@
-import { describe, expect, it } from 'vitest'
 import { defineComponent } from 'vue'
 import { mount } from '@vue/test-utils'
 import { useGoto } from './useGoto'

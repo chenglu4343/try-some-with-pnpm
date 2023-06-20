@@ -32,6 +32,7 @@
 - config some plugins
   - @vitejs/plugin-vue-jsx
   - unocss
+  - unplugin-auto-import
 
 ## using vitest
 - vitest setup vue-router-mock
