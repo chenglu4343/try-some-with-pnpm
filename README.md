@@ -6,11 +6,15 @@
 # packages
 
 ## publicUtils
+- try using unbuild packaging
 - try to fully configure package.json
 - try to publish package to https://registry.npmjs.org
-- try using unbuild packaging
 - try using bump to update the version automatically
 - try to export the cli module
+
+## vite-plugin-hello
+- try using tsup for packaging
+- try simple virtual-module
 
 ## utils
 - nothing
@@ -33,6 +37,7 @@
   - @vitejs/plugin-vue-jsx
   - unocss
   - unplugin-auto-import
+- try using vite-plugin-hello
 
 ## using vitest
 - vitest setup vue-router-mock

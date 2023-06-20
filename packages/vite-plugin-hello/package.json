@@ -1,0 +1,21 @@
+{
+  "author": "",
+  "description": "",
+  "devDependencies": {
+    "tsup": "^7.0.0",
+    "vite": "*"
+  },
+  "files": [
+    "dist",
+    "client.d.ts"
+  ],
+  "license": "ISC",
+  "main": "./dist/index.js",
+  "name": "vite-plugin-hello",
+  "scripts": {
+    "build": "tsup --config tsup.config.ts",
+    "dev": "pnpm run build --watch"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}

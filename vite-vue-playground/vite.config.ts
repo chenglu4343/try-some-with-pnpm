@@ -5,6 +5,8 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 import UnoCSS from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 
+import HelloPlugin from 'vite-plugin-hello'
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
@@ -19,6 +21,8 @@ export default defineConfig({
         filepath: './.eslintrc-auto-import.json',
       },
     }),
+
+    HelloPlugin(),
   ],
 
   resolve: {

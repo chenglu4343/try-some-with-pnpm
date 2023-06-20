@@ -13,6 +13,7 @@
     "unocss": "^0.53.1",
     "unplugin-auto-import": "^0.16.4",
     "vite": "^4.3.9",
+    "vite-plugin-hello": "workspace:^",
     "vitest": "^0.32.2",
     "vue-router": "4",
     "vue-router-mock": "^0.2.0",
