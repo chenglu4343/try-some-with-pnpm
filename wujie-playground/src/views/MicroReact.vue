@@ -1,3 +1,13 @@
+<script setup lang="ts">
+import WujieVue from 'wujie-vue3'
+</script>
+
 <template>
-  <div>TODO：挂载wujie-react的子应用</div>
+  <WujieVue
+    width="100%"
+    height="100%"
+    name="micro-react-alive"
+    :alive="true"
+    url="http://localhost:5181/"
+  />
 </template>
