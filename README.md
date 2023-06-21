@@ -47,3 +47,6 @@
 - try vitest test sleepTime
   - vite-vue-playground/src/utils/sleepTime.test.ts
 
+# wujie-playground
+- try to apply micro front-end through wujie
+- use concurrently to execute commands in parallel
