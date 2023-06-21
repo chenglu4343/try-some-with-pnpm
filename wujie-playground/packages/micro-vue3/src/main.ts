@@ -28,6 +28,8 @@ if (window.__POWERED_BY_WUJIE__) {
       console.log('micro-vue3 __WUJIE_UNMOUNT')
       stop()
     }
+
+    window.__WUJIE?.mount()
   }
   else {
     setupApp()
