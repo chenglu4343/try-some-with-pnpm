@@ -1,30 +1,34 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import type { MenuOption } from 'naive-ui'
+import { NLayout, NLayoutContent, NLayoutSider, NMenu } from 'naive-ui'
+import { useRoute, useRouter } from 'vue-router'
+
+const route = useRoute()
+const router = useRouter()
+
+const options: MenuOption[] = [
+  {
+    label: 'micro-vue3',
+    key: '/micro-vue3',
+  },
+  {
+    label: 'micro-react',
+    key: '/micro-react',
+  },
+]
+
+function handleUpdateValue(value: string) {
+  router.push(value)
+}
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo">
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo">
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <NLayout :has-sider="true">
+    <NLayoutSider>
+      <NMenu :value="route.path" mode="vertical" :options="options" :on-update-value="handleUpdateValue" />
+    </NLayoutSider>
+    <NLayoutContent>
+      <RouterView />
+    </NLayoutContent>
+  </NLayout>
 </template>
-
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
