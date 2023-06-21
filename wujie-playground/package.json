@@ -1,13 +1,4 @@
 {
-  "name": "wujie-playground",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc && vite build",
-    "preview": "vite preview"
-  },
   "dependencies": {
     "vue": "^3.2.47",
     "vue-router": "4",
@@ -15,9 +6,21 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
+    "concurrently": "^8.2.0",
     "naive-ui": "^2.34.4",
     "typescript": "^5.0.2",
     "vite": "^4.3.9",
     "vue-tsc": "^1.4.2"
-  }
+  },
+  "name": "wujie-playground",
+  "private": true,
+  "scripts": {
+    "build": "vue-tsc && vite build",
+    "dev": "concurrently \"vite\" \"pnpm run dev:microvue3\" \"pnpm run dev:microReact\"",
+    "dev:microReact": "pnpm --filter micro-react exec pnpm run dev",
+    "dev:microvue3": "pnpm --filter micro-vue3 exec pnpm run dev",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "version": "0.0.0"
 }
