@@ -3,3 +3,4 @@ packages:
   - 'simple-playground'
   - 'vite-vue-playground'
   - 'wujie-playground'
+  - 'wujie-playground/packages/*'
