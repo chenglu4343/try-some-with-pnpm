@@ -145,6 +145,9 @@ importers:
       vue-router:
         specifier: '4'
         version: 4.2.2(vue@3.2.47)
+      wujie-vue3:
+        specifier: ^1.0.17
+        version: 1.0.17(vue@3.2.47)
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^4.1.0
@@ -609,7 +612,6 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.11
-    dev: true
 
   /@babel/standalone@7.22.4:
     resolution: {integrity: sha512-QBNy4MzdvdyNMgnGBU8GsOHoJG0ghrQj8NupxV4gMxHo6EhrwozNsICbT3dz0MTRLldqYSYDmTOZQBvYcDVOUQ==}
@@ -4815,7 +4817,6 @@ packages:
 
   /regenerator-runtime@0.13.11:
     resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}
-    dev: true
 
   /regexp-tree@0.1.27:
     resolution: {integrity: sha512-iETxpjK6YoRWJG5o6hXLwvjYAoW+FEZn9os0PD/b6AP6xQwsa/Y7lCVgIixBbUPMfhu+i2LtdeAqVTgGlQarfA==}
@@ -5970,6 +5971,21 @@ packages:
   /wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: true
+
+  /wujie-vue3@1.0.17(vue@3.2.47):
+    resolution: {integrity: sha512-EO2oz6YQXvEs45o1eL8q1FU9iEEYsuB29w9iHUD0Z5KcmQ10W3D/q81I1e1q9F9f40z+KQ7j5CdzpOp/RFczCQ==}
+    peerDependencies:
+      vue: ^3.0.0
+    dependencies:
+      vue: 3.2.47
+      wujie: 1.0.17
+    dev: false
+
+  /wujie@1.0.17:
+    resolution: {integrity: sha512-ZqrmC5WduOpAHA/RKhSeGN6Jqt/qsXrXIP1z83JCb5ssQWOCusFe/LkeFG1w08u8mIxSlcSbpc1oE4/z48C+lw==}
+    dependencies:
+      '@babel/runtime': 7.22.5
+    dev: false
 
   /xml-name-validator@4.0.0:
     resolution: {integrity: sha512-ICP2e+jsHvAj2E2lIHxa5tjXRlKDJo4IdvPvCXbXQGdzSfmSpNVyIKMvoZHjDY9DP0zV17iI85o90vRFXNccRw==}

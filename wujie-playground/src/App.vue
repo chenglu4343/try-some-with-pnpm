@@ -12,6 +12,10 @@ const options: MenuOption[] = [
     key: '/micro-vue3',
   },
   {
+    label: 'micro-vue3-alive',
+    key: '/micro-vue3-alive',
+  },
+  {
     label: 'micro-react',
     key: '/micro-react',
   },

@@ -6,7 +6,8 @@ import WujieVue from 'wujie-vue3'
   <WujieVue
     width="100%"
     height="100%"
-    name="micro-vue3"
+    name="micro-vue3-alive"
+    :alive="true"
     url="http://localhost:5180/"
   />
 </template>
