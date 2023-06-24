@@ -4,3 +4,4 @@ packages:
   - 'vite-vue-playground'
   - 'wujie-playground'
   - 'wujie-playground/packages/*'
+  - 'nest-playground'
