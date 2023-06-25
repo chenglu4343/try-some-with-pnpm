@@ -8,6 +8,7 @@
     "@vitejs/plugin-vue": "^4.2.3",
     "concurrently": "^8.2.0",
     "naive-ui": "^2.34.4",
+    "npm-run-all": "^4.1.5",
     "typescript": "^5.1.3",
     "vite": "^4.3.9",
     "vue-tsc": "^1.8.1"
@@ -16,9 +17,11 @@
   "private": true,
   "scripts": {
     "build": "vue-tsc && vite build",
-    "dev": "concurrently \"vite\" \"pnpm run dev:microvue3\" \"pnpm run dev:microReact\"",
-    "dev:microReact": "pnpm --filter micro-react exec pnpm run dev",
-    "dev:microvue3": "pnpm --filter micro-vue3 exec pnpm run dev",
+    "dev:concurrently": "concurrently \"pnpm run dev:mainApp\" \"pnpm run dev:microvue3\" \"pnpm run dev:microReact\"",
+    "dev:mainApp": "vite",
+    "dev:microReact": "pnpm run --filter micro-react dev",
+    "dev:microvue3": "pnpm run --filter micro-vue3 dev",
+    "dev:run-p": "run-p dev:mainApp dev:microReact dev:microvue3 ",
     "preview": "vite preview"
   },
   "type": "module",

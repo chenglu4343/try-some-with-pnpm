@@ -54,3 +54,4 @@
 # wujie-playground
 - try to apply micro front-end through wujie
 - use concurrently to execute commands in parallel
+- use npm-run-all to execute commands in parallel
