@@ -2,6 +2,7 @@
   "author": "",
   "dependencies": {
     "@packages/utils": "workspace:^",
+    "taze": "^0.10.2",
     "typescript": "^5.0.4"
   },
   "description": "",
@@ -25,7 +26,7 @@
     ]
   },
   "main": "index.js",
-  "name": "try-pnpm-monorepo",
+  "name": "try-some-with-pnpm",
   "packageManager": "pnpm@8.6.3",
   "pnpm": {
     "patchedDependencies": {
@@ -35,7 +36,8 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "start": "esno ./index.ts"
+    "start": "esno ./index.ts",
+    "taze": "taze -r"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
