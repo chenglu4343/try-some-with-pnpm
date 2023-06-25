@@ -3,14 +3,14 @@
   "dependencies": {
     "@packages/utils": "workspace:^",
     "taze": "^0.10.2",
-    "typescript": "^5.0.4"
+    "typescript": "^5.1.3"
   },
   "description": "",
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.4",
+    "@antfu/eslint-config": "^0.39.5",
     "@types/lodash-es": "^4.17.7",
     "@types/node": "^20.3.1",
-    "eslint": "^8.42.0",
+    "eslint": "^8.43.0",
     "esno": "^0.16.3",
     "lint-staged": "^13.2.2",
     "lodash-es": "^4.17.21",
