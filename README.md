@@ -38,6 +38,7 @@
   - unocss
   - unplugin-auto-import
   - rollup-plugin-visualizer
+  - vite-plugin-inspect
 - try using vite-plugin-hello
 
 ## using vitest

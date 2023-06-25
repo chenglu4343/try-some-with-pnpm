@@ -5,6 +5,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 import UnoCSS from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import { visualizer } from 'rollup-plugin-visualizer'
+import Inspect from 'vite-plugin-inspect'
 
 import HelloPlugin from 'vite-plugin-hello'
 
@@ -27,6 +28,7 @@ export default defineConfig({
       gzipSize: true,
       brotliSize: true,
     }),
+    Inspect(),
 
     HelloPlugin(),
   ],
