@@ -26,6 +26,7 @@
   },
   "main": "index.js",
   "name": "try-pnpm-monorepo",
+  "packageManager": "pnpm@8.6.3",
   "pnpm": {
     "patchedDependencies": {
       "lodash-es@4.17.21": "patches/lodash-es@4.17.21.patch"
