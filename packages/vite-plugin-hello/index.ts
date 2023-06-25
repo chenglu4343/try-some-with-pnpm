@@ -1,12 +1,17 @@
 /* eslint-disable unused-imports/no-unused-vars */
 /* eslint-disable no-console */
 import type { PluginOption } from 'vite'
+import chalk from 'chalk'
 
 const TOTAL_MSG_LENGTH = 40
 
 function helloLog(str: string) {
   const repeatSize = Math.floor((TOTAL_MSG_LENGTH - str.length) / 2)
-  console.log('='.repeat(repeatSize), 'hello', str, '='.repeat(repeatSize))
+  console.log(
+    chalk.blue('='.repeat(repeatSize)),
+    chalk.yellow('hello ', str),
+    chalk.blue('='.repeat(repeatSize)),
+  )
 }
 
 export default function helloPlugin(): PluginOption {

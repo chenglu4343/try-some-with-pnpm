@@ -15,6 +15,7 @@
 ## vite-plugin-hello
 - try using tsup for packaging
 - try simple virtual-module
+- try using chalk
 
 ## utils
 - nothing

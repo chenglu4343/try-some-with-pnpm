@@ -149,6 +149,10 @@ importers:
   packages/utils: {}
 
   packages/vite-plugin-hello:
+    dependencies:
+      chalk:
+        specifier: ^5.2.0
+        version: 5.2.0
     devDependencies:
       tsup:
         specifier: ^7.0.0
@@ -3657,7 +3661,6 @@ packages:
   /chalk@5.2.0:
     resolution: {integrity: sha512-ree3Gqw/nazQAPuJJEy+avdl7QfZMcUvmHIKgEZkGL+xOBzRvup5Hxo6LHuMceSxOabuJLJm5Yp/92R9eMmMvA==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
-    dev: true
 
   /char-regex@1.0.2:
     resolution: {integrity: sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw==}
