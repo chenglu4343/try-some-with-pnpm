@@ -37,6 +37,7 @@
   - @vitejs/plugin-vue-jsx
   - unocss
   - unplugin-auto-import
+  - rollup-plugin-visualizer
 - try using vite-plugin-hello
 
 ## using vitest

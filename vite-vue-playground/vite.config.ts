@@ -4,6 +4,7 @@ import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import UnoCSS from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
+import { visualizer } from 'rollup-plugin-visualizer'
 
 import HelloPlugin from 'vite-plugin-hello'
 
@@ -20,6 +21,11 @@ export default defineConfig({
         enabled: true,
         filepath: './.eslintrc-auto-import.json',
       },
+    }),
+    visualizer({
+      open: true,
+      gzipSize: true,
+      brotliSize: true,
     }),
 
     HelloPlugin(),
