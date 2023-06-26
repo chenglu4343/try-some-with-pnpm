@@ -38,6 +38,7 @@
     "lint:fix": "eslint . --fix",
     "start": "esno ./index.ts",
     "taze": "taze -r",
+    "preinstall": "npm i -g pnpm@8.6.3",
     "postinstall": "pnpm run build:vite-plugin-hello",
     "build:vite-plugin-hello":"pnpm run --filter vite-plugin-hello build"
   },
