@@ -15,9 +15,18 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <input placeholder="input" class="app-input">
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+.app-input{
+  font-size: 16px;
+
+  &::placeholder {
+  color: red;
+}
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

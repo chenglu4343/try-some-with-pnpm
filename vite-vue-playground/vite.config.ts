@@ -7,6 +7,8 @@ import AutoImport from 'unplugin-auto-import/vite'
 import { visualizer } from 'rollup-plugin-visualizer'
 import Inspect from 'vite-plugin-inspect'
 
+import autoprefixer from 'autoprefixer'
+
 import HelloPlugin from 'vite-plugin-hello'
 
 // https://vitejs.dev/config/
@@ -36,6 +38,14 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': './src',
+    },
+  },
+
+  css: {
+    postcss: {
+      plugins: [
+        autoprefixer,
+      ],
     },
   },
 

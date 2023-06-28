@@ -36,6 +36,8 @@
 - config vitest
 - config alias
 - add sass
+- config postcss
+  - add plugins autoprefixer
 - config some plugins
   - @vitejs/plugin-vue-jsx
   - unocss
