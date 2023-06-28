@@ -35,6 +35,7 @@
 # vite-vue-playground
 - config vitest
 - config alias
+- add sass
 - config some plugins
   - @vitejs/plugin-vue-jsx
   - unocss
