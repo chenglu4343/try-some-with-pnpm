@@ -1,5 +1,4 @@
-/* eslint-disable unused-imports/no-unused-vars */
-function fibonacci(num: number) {
+export function fibonacci(num: number) {
   let a = 1
   let b = 0
   while (num >= 0) {

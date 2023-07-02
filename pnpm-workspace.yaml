@@ -2,6 +2,7 @@ packages:
   - 'packages/*'
   - 'simple-playground'
   - 'vite-vue-playground'
+  - 'vite-vue-playground/packages/*'
   - 'wujie-playground'
   - 'wujie-playground/packages/*'
   - 'nest-playground'

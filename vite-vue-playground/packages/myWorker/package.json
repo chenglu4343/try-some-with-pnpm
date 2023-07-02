@@ -1,0 +1,22 @@
+{
+  "author": "",
+  "dependencies": {
+    "@types/lodash-es": "*",
+    "lodash-es": "*"
+  },
+  "description": "",
+  "devDependencies": {
+    "tsup": "^7.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "license": "ISC",
+  "name": "myWorker",
+  "scripts": {
+    "build": "tsup --config tsup.config.ts",
+    "dev": "pnpm run build --watch"
+  },
+  "version": "1.0.0"
+}

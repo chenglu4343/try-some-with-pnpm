@@ -3,7 +3,7 @@ const num = ref(0)
 const answer = ref(0)
 const isDisable = ref(false)
 
-const fibonacciWorker = new Worker(new URL('../worker/fibonacci.ts', import.meta.url))
+const fibonacciWorker = new Worker(new URL('../../node_modules/myWorker/dist/fibonacci.worker.global.js', import.meta.url))
 
 function handleClick() {
   fibonacciWorker.postMessage(num.value)

@@ -6,5 +6,5 @@
     "moduleResolution": "bundler",
     "lib": ["WebWorker"]
   },
-  "include": ["src/worker/**/*.ts"]
+  "include": ["packages/myWorker/**/*.ts"]
 }
