@@ -25,7 +25,8 @@
     },
 
     "types": [
-      "vite-plugin-hello/client.d.ts"
+      "vite-plugin-hello/client.d.ts",
+      "vite-plugin-pages/client"
     ]
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],

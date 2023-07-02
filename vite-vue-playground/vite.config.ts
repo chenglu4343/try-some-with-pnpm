@@ -6,6 +6,7 @@ import UnoCSS from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import { visualizer } from 'rollup-plugin-visualizer'
 import Inspect from 'vite-plugin-inspect'
+import Pages from 'vite-plugin-pages'
 
 import autoprefixer from 'autoprefixer'
 
@@ -25,11 +26,18 @@ export default defineConfig({
         filepath: './.eslintrc-auto-import.json',
       },
     }),
+    // auto generate router
+    Pages({
+      extensions: ['vue'],
+      exclude: ['**/components/*.vue'],
+    }),
+    // vite build size visualizer
     visualizer({
       open: true,
       gzipSize: true,
       brotliSize: true,
     }),
+    // vite build inspect
     Inspect(),
 
     HelloPlugin(),

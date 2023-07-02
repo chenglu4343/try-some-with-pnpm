@@ -18,6 +18,7 @@
     "unplugin-auto-import": "^0.16.4",
     "vite": "^4.3.9",
     "vite-plugin-hello": "workspace:^",
+    "vite-plugin-pages": "^0.31.0",
     "vitest": "^0.32.2",
     "vue-router": "4.2.2",
     "vue-router-mock": "^0.2.0",

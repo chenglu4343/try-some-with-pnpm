@@ -44,6 +44,7 @@
   - unplugin-auto-import
   - rollup-plugin-visualizer
   - vite-plugin-inspect
+  - vite-plugin-pages
 - try using vite-plugin-hello
 
 ## using vitest
