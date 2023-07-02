@@ -46,6 +46,8 @@
   - vite-plugin-inspect
   - vite-plugin-pages
 - try using vite-plugin-hello
+- try using Web Workers
+  - vite-vue-playground/src/pages/Worker.vue
 
 ## using vitest
 - vitest setup vue-router-mock
