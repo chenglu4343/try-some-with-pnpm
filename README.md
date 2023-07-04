@@ -49,6 +49,9 @@
 - try using Web Workers
   - vite-vue-playground/packages/myWorker
 
+## packages/myWorker
+- try build Web Worker
+
 ## using vitest
 - vitest setup vue-router-mock
   - vite-vue-playground/vitestSetup/setupVueRouterMock.ts
