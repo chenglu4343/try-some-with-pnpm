@@ -47,10 +47,15 @@
   - vite-plugin-pages
 - try using vite-plugin-hello
 - try using Web Workers
-  - vite-vue-playground/packages/myWorker
+  - vite-vue-playground/src/pages/Worker.vue
+- try using wasm with myAssemblyScript
+  - vite-vue-playground/src/pages/AssemblyScript.vue
 
 ## packages/myWorker
 - try build Web Worker
+
+## packages/myAssemblyScript
+- try build AssemblyScript
 
 ## using vitest
 - vitest setup vue-router-mock
