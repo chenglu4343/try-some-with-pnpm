@@ -66,6 +66,8 @@
   - vite-vue-playground/src/utils/isTodayFriday.test.ts
 - try vitest test sleepTime
   - vite-vue-playground/src/utils/sleepTime.test.ts
+- use @pinia/testing to test pinia
+  - vite-vue-playground/src/composables/useCompletedTasks.test.ts
 
 # wujie-playground
 - try to apply micro front-end through wujie

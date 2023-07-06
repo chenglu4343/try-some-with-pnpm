@@ -15,8 +15,13 @@ export const useTaskStore = defineStore('task-store', () => {
     })
   }
 
+  function getAlltasks() {
+    return tasks.value
+  }
+
   return {
     tasks,
     addTask,
+    getAlltasks,
   }
 })
