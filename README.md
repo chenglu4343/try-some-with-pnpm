@@ -36,6 +36,8 @@
 - config vitest
 - config alias
 - add sass
+- add vue-router
+- add pinia
 - config postcss
   - add plugins autoprefixer
 - config some plugins
