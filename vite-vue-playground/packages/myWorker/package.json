@@ -6,7 +6,7 @@
   },
   "description": "",
   "devDependencies": {
-    "tsup": "^7.0.0"
+    "tsup": "^7.2.0"
   },
   "files": [
     "dist"
