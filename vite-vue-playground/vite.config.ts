@@ -57,6 +57,10 @@ export default defineConfig({
     },
   },
 
+  optimizeDeps: {
+    exclude: ['@ffmpeg/ffmpeg', '@ffmpeg/core', '@ffmpeg/util'],
+  },
+
   test: {
     environment: 'happy-dom',
     setupFiles: ['./vitestSetup/index.ts'],
